@@ -9,7 +9,7 @@ inputs:
     required: true
   GIT_PATCH_OUTPUT:
     description: 'The pull request in patch format for prompt interpretation'
-    required: true
+    required: false
   GITHUB_TOKEN:
     description: 'Derivative token for using the GitHub REST API'
     required: true
